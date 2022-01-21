@@ -1,0 +1,24 @@
+﻿@page
+@using AmplifundExample.Data.Core
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    @foreach (var item in (IEnumerable<CarModel>) ViewData["cars"])
+    {
+        <h2 class = display-4> @item.Id </h2>
+        <h2 class = display-4> @item.Year </h2>
+        <h2 class = display-4> @item.Make </h2>
+        <h2 class = display-4> @item.Model </h2>
+        <h2 class = display-4> @item.Trim </h2>
+        <h2 class = display-4> @item.VIN </h2>
+        <h2 class = display-4> @item.Description </h2>
+        <h2 class = display-4> @item.Miles </h2>
+        <h2 class = display-4> @item.MPG </h2>
+
+        <br/>
+    }
+</div>

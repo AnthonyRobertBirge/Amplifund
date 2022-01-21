@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{0F768EA4-7613-411C-A0DC-FE9A0B690B7F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Logic", "Logic", "{331EDE8C-88C9-4FC6-A613-2F4337B0D368}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{6E2D3048-C574-4E75-A05D-F9D2B375CA67}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "AmplifundExample.Shared", "AmplifundExample.Shared\AmplifundExample.Shared.shproj", "{5BE4E82E-7E1C-4DAF-B4A3-5CF87ED37883}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmplifundExample.Web", "AmplifundExample.Web\AmplifundExample.Web.csproj", "{801B6472-6FF9-4E25-AFD9-67F7B5C40A38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmplifundExample.Data.Core", "AmplifundExample.Data.Core\AmplifundExample.Data.Core.csproj", "{6BBF3EBF-A50C-4140-9095-A6191A70BDA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmplifundExample.Logic.Core", "AmplifundExample.Logic.Core\AmplifundExample.Logic.Core.csproj", "{E22A6A46-BF29-48C1-B94B-047965591145}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		AmplifundExample.Shared\AmplifundExample.Shared.projitems*{5be4e82e-7e1c-4daf-b4a3-5cf87ed37883}*SharedItemsImports = 13
+		AmplifundExample.Shared\AmplifundExample.Shared.projitems*{6bbf3ebf-a50c-4140-9095-a6191a70bda8}*SharedItemsImports = 5
+		AmplifundExample.Shared\AmplifundExample.Shared.projitems*{e22a6a46-bf29-48c1-b94b-047965591145}*SharedItemsImports = 5
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{801B6472-6FF9-4E25-AFD9-67F7B5C40A38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{801B6472-6FF9-4E25-AFD9-67F7B5C40A38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{801B6472-6FF9-4E25-AFD9-67F7B5C40A38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{801B6472-6FF9-4E25-AFD9-67F7B5C40A38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BBF3EBF-A50C-4140-9095-A6191A70BDA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BBF3EBF-A50C-4140-9095-A6191A70BDA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BBF3EBF-A50C-4140-9095-A6191A70BDA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BBF3EBF-A50C-4140-9095-A6191A70BDA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E22A6A46-BF29-48C1-B94B-047965591145}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E22A6A46-BF29-48C1-B94B-047965591145}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E22A6A46-BF29-48C1-B94B-047965591145}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E22A6A46-BF29-48C1-B94B-047965591145}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5BE4E82E-7E1C-4DAF-B4A3-5CF87ED37883} = {6E2D3048-C574-4E75-A05D-F9D2B375CA67}
+		{6BBF3EBF-A50C-4140-9095-A6191A70BDA8} = {0F768EA4-7613-411C-A0DC-FE9A0B690B7F}
+		{E22A6A46-BF29-48C1-B94B-047965591145} = {331EDE8C-88C9-4FC6-A613-2F4337B0D368}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E2608B34-9AF5-422F-BC97-2B52E93C2B67}
+	EndGlobalSection
+EndGlobal
